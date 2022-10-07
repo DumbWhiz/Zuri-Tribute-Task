@@ -155,25 +155,19 @@ strong{
         margin: 0;
         
     }
-}
 
-
-@media screen and (max-width:1140px){
     .section-1 blockquote{
         font-size: 25px;
     }
 
-    .mini{
-        display: initial;
-    }
-
-    .desktop{
-        display:none;
-    }
+    
 }
 
-
-
+@media screen and (max-width:1140px){
+    .section-1 blockquote{
+        margin-top: 15%;
+    }
+}
 @media screen and (max-width:810px){
 
     .flex{
@@ -190,6 +184,15 @@ strong{
     .section-1 blockquote{
        font-size: smaller;
        max-width: 100%;
+       margin:0;
+    }
+
+    .mini{
+        display: initial;
+    }
+
+    .desktop{
+        display:none;
     }
 }
 @media screen and (max-width:660px){
