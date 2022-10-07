@@ -44,6 +44,10 @@ p {
     border-radius: 360px;
 }
 
+.mini{
+    display: none;
+}
+
 .fig figcaption{
     font-size: 16px;
     color: var(--color-II);
@@ -58,10 +62,10 @@ p {
 
 .flex .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 40px 0 40px;
-
 }
+
 .section-1 blockquote{
     color:var(--color-II);
     font-size: 40px;
@@ -158,13 +162,17 @@ strong{
     .section-1 blockquote{
         font-size: 25px;
     }
-}
 
-@media screen and (max-width:1070px){
-    .section-1 blockquote{
-        font-size: px;
+    .mini{
+        display: initial;
+    }
+
+    .desktop{
+        display:none;
     }
 }
+
+
 
 @media screen and (max-width:810px){
 
